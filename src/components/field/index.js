@@ -296,7 +296,7 @@ export default class TextField extends PureComponent {
   renderAffix(type, active, focused) {
     let {
       [type]: affix,
-      fontSize,
+      //fontSize,
       baseColor,
       animationDuration,
       affixTextStyle,
@@ -310,7 +310,7 @@ export default class TextField extends PureComponent {
       type,
       active,
       focused,
-      fontSize,
+      //fontSize,
       baseColor,
       animationDuration,
     };
